@@ -1,0 +1,139 @@
+body {
+  font-family: 'Open Sans';
+  margin: auto;
+}
+.container {
+  width: 100%;
+}
+.header .social-container {
+  background: #18446b;
+  padding: 2px !important;
+  padding-top: 0px;
+}
+.header .social-container img {
+  margin: 0 3px;
+  width: 15px;
+}
+.header .sec-menu-container {
+  text-align: right;
+  padding: 10px 10px;
+}
+.header .sec-menu-container a {
+  text-decoration: none;
+  color: black;
+}
+.header .sec-menu-container .active {
+  color: #f1bc30;
+}
+.header .sec-menu-container div {
+  display: inline-block;
+  margin: 0 10px;
+}
+.header .sec-menu-container .spl-menu div:nth-child(1) {
+  background: #f1bc30;
+  padding: 6px 10px;
+  margin-right: 1px !important;
+}
+.header .sec-menu-container .spl-menu div:nth-child(2) {
+  background: #18446b;
+  color: white;
+  padding: 6px 10px;
+  margin-left: 1px !important;
+}
+.header .main-menu-container {
+  background: #4f7faa;
+  padding: 15px 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.header .main-menu-container div {
+  display: inline-block;
+  border: 1px solid lightgrey;
+  border-right: none;
+  padding: 8px 20px;
+  color: white;
+}
+.header .main-menu-container div:last-child {
+  border-right: 1px solid darkgrey;
+}
+.header .main-menu-container div:hover {
+  background: #f1bc30;
+  cursor: pointer;
+}
+.single-blogEntry {
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+}
+.single-blogEntry .loader {
+  text-align: center;
+}
+.single-blogEntry div {
+  margin: 10px 0;
+}
+.single-blogEntry .title {
+  font-size: 30px;
+  line-height: initial;
+}
+.single-blogEntry .author {
+  color: darkgrey;
+}
+.body-container {
+  width: 65%;
+  display: flex;
+}
+.body-container .cards-container {
+  width: 75%;
+  display: inline-block;
+}
+.body-container .cards-container .loader {
+  margin-top: 20px;
+  text-align: center;
+}
+.body-container .cards-container .card {
+  margin: 20px auto;
+}
+.body-container .cards-container .title {
+  font-size: 24px;
+}
+.body-container .cards-container .author {
+  color: darkgrey;
+  font-size: 12px;
+  margin: 10px 0;
+}
+.body-container .cards-container .author b {
+  color: black;
+}
+.body-container .cards-container .blog-thumb {
+  margin: 10px 0;
+}
+.body-container .cards-container .content {
+  font-size: 12px;
+}
+.body-container .blog-form {
+  text-align: center;
+  width: 35%;
+  padding: 10px;
+  display: inline-block;
+}
+.body-container .blog-form .form-header {
+  text-align: left;
+  font-size: large;
+  font-weight: bold;
+  margin: 7px 5px;
+}
+.body-container .blog-form .form-error {
+  color: crimson;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+.body-container .blog-form input[type=text],
+.body-container .blog-form textarea {
+  width: 90%;
+  border-radius: 0px;
+  border-width: 2px;
+  border-color: steelblue;
+}
+.dummy-container {
+  text-align: center;
+}

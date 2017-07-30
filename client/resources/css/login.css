@@ -1,0 +1,120 @@
+a:focus {
+  outline: none;
+}
+html {
+  height: 100%;
+}
+html body {
+  height: 100%;
+  font-family: 'Overlock';
+  background-color: #f1e4e8;
+  cursor: default;
+  color: #2D2D34;
+}
+html body #app {
+  height: 100%;
+}
+html body #app .main-container {
+  height: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+html body #app .main-container header {
+  font-family: actionis;
+  color: #B97375;
+  text-align: center;
+  font-size: 80px;
+  line-height: 120px;
+}
+html body #app .main-container form {
+  min-width: 300px;
+  padding: 10px;
+}
+html body #app .main-container form .materialui-textbox-container {
+  height: 50px;
+  margin: 5px 0 15px 0;
+  text-align: left;
+  position: relative;
+}
+html body #app .main-container form .materialui-textbox-container div {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: left;
+}
+html body #app .main-container form .materialui-textbox-container div label {
+  font-weight: bold;
+  font-size: large;
+  color: grey;
+  margin-bottom: 0px !important;
+  line-height: 0px;
+  transition: font-size 0.2s, line-height 0.2s, color 0.2s;
+}
+html body #app .main-container form .materialui-textbox-container div .stay-focused {
+  height: 30px;
+  background: #E2DCDE;
+}
+html body #app .main-container form .materialui-textbox-container div input {
+  width: 100%;
+  border: 0px;
+  border-top: 2px solid #CEB1BE !important;
+  font-family: 'Overlock';
+  border-radius: 0px;
+  box-shadow: none;
+  height: 0px;
+  background: transparent;
+  margin-bottom: 0px;
+  padding: 0 5px;
+  transition: height 0.2s, margin-bottom 0.2s;
+}
+html body #app .main-container form .materialui-textbox-container div input:focus {
+  height: 30px;
+  background: #E2DCDE;
+  border-color: transparent;
+}
+html body #app .main-container form .materialui-textbox-container div .errorLabel {
+  margin-top: 6px;
+  font-size: small;
+  color: crimson;
+  text-align: right;
+}
+html body #app .main-container form .materialui-textbox-container div i {
+  position: absolute;
+  right: 10px;
+  bottom: 7px;
+  color: grey;
+  cursor: pointer;
+}
+html body #app .main-container form .materialui-textbox-container div i:hover {
+  color: crimson;
+}
+html body #app .main-container form div {
+  text-align: center;
+}
+html body #app .main-container form div input[type=submit] {
+  padding: 8px 25px;
+  border: 2px solid transparent;
+  color: white;
+  background: #B97375;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+html body #app .main-container form div input[type=submit]:hover {
+  background: linear-gradient(#B97375, #cc9091);
+}
+html body #app .main-container form div input[type=submit]:focus {
+  outline-width: 0px;
+  background: linear-gradient(#B97375, #cc9091);
+}
+html body #app .main-container form .toggleFormContainer {
+  margin-top: 20px;
+  font-size: large;
+  font-weight: bold;
+}
+html body #app .main-container .footer {
+  font-size: x-small;
+  font-weight: bold;
+}
