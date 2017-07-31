@@ -1,0 +1,161 @@
+body{
+	font-family: 'Open Sans';
+	margin: auto;
+}
+
+.container{
+	width: 100%;
+}
+
+.header{
+	.social-container{
+		background: #18446b;
+		padding: 2px !important;
+		padding-top: 0px;
+
+		img{
+			margin: 0 3px;
+			width: 15px;
+		}
+	}
+
+	.sec-menu-container{
+		text-align: right;
+		padding: 10px 10px;
+
+		a{
+			text-decoration: none;
+			color: black;
+		}
+		.active{
+			color: #f1bc30;
+		}
+		div{
+			display: inline-block;
+			margin: 0 10px;
+		}
+		.spl-menu{
+			div:nth-child(1){
+				background: #f1bc30;
+				padding: 6px 10px;
+				margin-right: 1px !important;
+			}
+			div:nth-child(2){
+				background: #18446b;
+				color: white;
+				padding: 6px 10px;
+				margin-left: 1px !important;
+			}
+		}
+	}
+
+	.main-menu-container{
+		background: #4f7faa;
+		padding: 15px 10px;
+		text-align: center;
+		box-sizing: border-box;
+
+		div{
+			display: inline-block;
+			border: 1px solid lightgrey;
+			border-right: none;
+			padding: 8px 20px;
+			color: white;
+
+			&:last-child{
+				border-right: 1px solid darkgrey;
+			}
+
+			&:hover{
+				background: #f1bc30;
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+.single-blogEntry{
+	width: 60%;
+	margin: auto;
+	margin-top: 20px;
+
+	.loader{
+		text-align: center;
+	}
+	div{
+		margin: 10px 0;
+	}
+	.title{
+		font-size: 30px;
+		line-height: initial;
+	}
+	.author{
+		color: darkgrey;
+	}
+}
+
+.body-container{
+	width: 65%;
+	display: flex;
+	.cards-container{
+		width: 75%;
+		display: inline-block;
+		.loader{
+			margin-top: 20px;
+			text-align: center;
+		}
+		.card{
+			margin: 20px auto;
+		}
+
+		.title{
+			font-size: 24px;
+		}
+		.author{
+			color: darkgrey;
+			font-size: 12px;
+			margin: 10px 0;
+
+			b{
+				color: black;
+			}
+		}
+		.blog-thumb{
+			margin: 10px 0;
+		}
+		.content{
+			font-size: 12px;
+		}
+	}
+
+	.blog-form{
+		text-align: center;
+		width: 35%;
+		padding: 10px;
+		display: inline-block;
+
+		.form-header{
+			text-align: left;
+			font-size: large;
+			font-weight: bold;
+			margin: 7px 5px;
+		}
+
+		.form-error{
+			color: crimson;
+			margin-top: 5px;
+			margin-bottom: 8px;
+		}
+
+		input[type=text], textarea{
+			width: 90%;
+			border-radius: 0px;
+	    border-width: 2px;
+	    border-color: steelblue;
+		}
+	}
+}
+
+.dummy-container{
+	text-align: center;
+}
