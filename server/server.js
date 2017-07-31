@@ -23,7 +23,6 @@ app.set('view engine', 'html');
 app.get('/cards', (req, res) => {
 	Card.find().then((cards) => {
 		res.send(cards)
-		console.log(cards);
 	}, (err) => {
 		res.status(400).send(e);
 	});
